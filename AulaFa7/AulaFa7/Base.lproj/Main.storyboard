@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DDU-KA-NdW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.49324330957875762" green="1" blue="0.42653582347481866" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="TlI-Wt-S6h"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="99"/>
+        </scene>
+        <!--Tela Amarela-->
+        <scene sceneID="UQy-Q8-q8Y">
+            <objects>
+                <viewController id="KLW-5T-InC" customClass="TelaAmarelaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5KL-OA-HvP"/>
+                        <viewControllerLayoutGuide type="bottom" id="x5q-TT-LPZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WHB-tT-asp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37A-cH-3X0">
+                                <rect key="frame" x="106" y="213" width="95" height="30"/>
+                                <state key="normal" title="Tela Vermelha">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FRn-z2-gu2" kind="show" id="DZM-qu-y0K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPs-bt-85G">
+                                <rect key="frame" x="123" y="242" width="61" height="30"/>
+                                <state key="normal" title="Tela Azul">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nNX-dY-029" kind="show" identifier="segueTelaAzul" id="P7Q-mD-s0o"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99438424059412334" green="1" blue="0.39743363021543665" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tela Amarela" id="e4h-jO-cNK"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kWz-md-n86" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="730"/>
+        </scene>
+        <!--Tela Azul-->
+        <scene sceneID="4Yk-Tg-FA1">
+            <objects>
+                <viewController id="nNX-dY-029" customClass="TelaAzulViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nJU-aV-6Ih"/>
+                        <viewControllerLayoutGuide type="bottom" id="B1W-ni-MSV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bhm-VX-sf9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWk-c0-nGF">
+                                <rect key="frame" x="16" y="36" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.36170594490000002" green="0.4728617665" blue="0.86503708960000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tela Azul" id="GCX-RA-6IO"/>
+                    <connections>
+                        <outlet property="labelTelaAzul" destination="JWk-c0-nGF" id="fZT-cF-ljt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZMD-8r-cIk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1153" y="91"/>
+        </scene>
+        <!--Tela Vermelha-->
+        <scene sceneID="mFn-9E-Ppd">
+            <objects>
+                <viewController id="FRn-z2-gu2" customClass="TelaVermelhaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xJ3-eB-neq"/>
+                        <viewControllerLayoutGuide type="bottom" id="TK9-A6-Lbt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XOp-dU-qnV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gho-Xj-9db">
+                                <rect key="frame" x="99" y="196" width="118" height="30"/>
+                                <state key="normal" title="Notificacao Teste">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cliqueSendEvento:" destination="FRn-z2-gu2" eventType="touchUpInside" id="2uq-F1-mhW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LgJ-YK-zWo">
+                                <rect key="frame" x="63" y="251" width="191" height="30"/>
+                                <state key="normal" title="Notificacao Com Parametro">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cliqueSendEventoComParametros:" destination="FRn-z2-gu2" eventType="touchUpInside" id="hfs-QU-5WO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.010051519910000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tela Vermelha" id="rUV-dN-sDl"/>
+                    <connections>
+                        <outlet property="btAction" destination="nhw-9B-Wa4" id="gTw-RX-XS0"/>
+                        <outlet property="btCompose" destination="5xC-dY-HLW" id="y2S-7J-cjs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n18-Rb-TdV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem systemItem="action" id="nhw-9B-Wa4">
+                    <connections>
+                        <action selector="botaoBarItem:" destination="FRn-z2-gu2" id="Mg6-pJ-biS"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem systemItem="compose" id="5xC-dY-HLW"/>
+            </objects>
+            <point key="canvasLocation" x="1153" y="730"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="V4r-uF-tA0">
+            <objects>
+                <tabBarController id="DDU-KA-NdW" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="p0Z-ed-Oz9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="nsm-ej-927"/>
+                        <segue destination="PGo-cv-Hj5" kind="relationship" relationship="viewControllers" id="Mvl-mE-ahN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xlH-PL-aQF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-226" y="345"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6uJ-Ok-s81">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PGo-cv-Hj5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="vEI-za-ORZ"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="OAt-B3-eTn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KLW-5T-InC" kind="relationship" relationship="rootViewController" id="WqK-H0-mMf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Zr-7k-6Ao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="730"/>
+        </scene>
+    </scenes>
+</document>

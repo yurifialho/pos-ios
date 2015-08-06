@@ -1,0 +1,5 @@
+XSym
+0083
+b1812e67d0027bf315b4de796f5f7d31
+../../../MRProgress/src/Support/AFNetworking/MRActivityIndicatorView+AFNetworking.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
